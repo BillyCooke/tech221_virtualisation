@@ -78,7 +78,7 @@ The above diagram shows the relationship between vagrant and virtual box.
 ## Creating a Vagrant file
 * In VScode, bring up the terminal and change the launch profile to bash. Then enter the command ```vagrant init```
 * This will bring up the configuration for you so then use the command ```vagrant up```
-* Use ```vagrant ssh``` to ssh into the vagrant file
+* Use ```vagrant ssh``` in Git Bash to ssh into the virtual machine
 
 ## Provisioning in Vagrant
 If we want to automate the process of adding Nginx to our virtual machine then we can use a shell script to do this using the following steps.
